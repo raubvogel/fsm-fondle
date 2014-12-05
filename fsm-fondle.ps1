@@ -12,7 +12,7 @@
 # powershell -ExecutionPolicy ByPass -File .\fsm-fondle.ps1
 #
 # 2. To run it as a recurring job, you can use schtasks:
-# Schtasks /create /tn "Fondle site" /sc daily /st 07:00 /tr "powershell -ExecutionPolicy ByPass -File .\fsm-fondle.ps1"
+# Schtasks /create /tn "Fondle site" /sc daily /st 07:00 /tr "powershell -ExecutionPolicy ByPass -File \full\path\to\fsm-fondle.ps1"
 #
 # VERSIONS
 #  v1.0.0. (20141107) : Initial release
